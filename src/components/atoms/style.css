@@ -1,0 +1,30 @@
+.swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	opacity: 1;
+	background: rgba(89, 86, 233, 1);
+	color: transparent;
+}
+
+.swiper-pagination-bullet-active {
+	color: transparent;
+	background: rgba(89, 86, 233, 1);
+	outline: 2px solid rgba(89, 86, 233, 1);
+	outline-offset: 1px;
+}
+.swiper-container {
+	overflow: visible;
+}
+
+.swiper {
+	/* height: 620px; */
+	/* --swiper-pagination-bottom: -4%; */
+}
+.swiper img {
+	/* width: 320px; */
+	/* height: 100%; */
+	/* object-fit: cover; */
+}
