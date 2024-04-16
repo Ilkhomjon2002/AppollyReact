@@ -14,11 +14,11 @@ import { FooterSection } from "../organisms/footerSection";
 import { useEffect } from "react";
 import { useFetch } from "../../useWindowResizer";
 const FullLayout = () => {
-	const url =
-		"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo";
-	const [data, isLoading, isError] = useFetch(url);
+	// const url =
+	// 	"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo";
+	// const [data, isLoading, isError] = useFetch(url);
 
-	useEffect(() => {}, []);
+	// useEffect(() => {}, []);
 	return (
 		<>
 			<Box backgroundImage={NavbarBackground}>
